@@ -1,4 +1,4 @@
-package com.exam.auth_service;
+package com.exam.auth;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
