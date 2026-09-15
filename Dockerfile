@@ -33,7 +33,7 @@ RUN chown -R appuser:appgroup /app
 # 7. Cambiar al usuario no administrativo
 USER appuser
 
-EXPOSE 8084
+EXPOSE 8081
 
 # 8. Parámetros de la JVM optimizados para contenedores (cgroups v2 en AWS/K8s)
 ENV JAVA_OPTS="-XX:+UseContainerSupport -XX:MaxRAMPercentage=75.0 -Duser.timezone=UTC"
