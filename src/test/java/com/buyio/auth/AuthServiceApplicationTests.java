@@ -1,4 +1,4 @@
-package com.exam.auth;
+package com.buyio.auth;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
